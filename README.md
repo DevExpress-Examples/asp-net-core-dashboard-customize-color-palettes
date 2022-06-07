@@ -1,25 +1,14 @@
-# Product/Platform - Task
+# Web Dashboard - Customizing Color Palettes
 
-This is the repository template for creating new examples. Describe the solved task here.
-
-Put a screenshot that illustrates the result here.
-
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
+This example illustates how to customize color palettes for dashboard items in Web Dashboard.
 
 ## Files to Look At
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
+- * [Program.cs](./CS/WebDashboardCustomColorPalettes/Program.cs)
 
 ## Documentation
 
-- link
-- link
-- ...
+- [Coloring Basics](https://docs.devexpress.com/Dashboard/116915)
+- [CColoring in the Web Dashboard](https://docs.devexpress.com/Dashboard/117152)
 
-## More Examples
 
-- link
-- link
-- ...
