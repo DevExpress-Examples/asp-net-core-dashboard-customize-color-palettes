@@ -11,7 +11,8 @@ Restore npm packages to launch the project. Note that the script version on the 
 
 ### Sales by Category Dashboard
 
-In the *Sales By Category* dashboard, the [DashboardConfigurator.CustomPalette](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator.CustomPalette) event is used to substitute the default palette with a custom one.
+In the *Sales By Category* dashboard, the [DashboardConfigurator.CustomPalette](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.DashboardConfigurator.CustomPalette) event is used to substitute the default palette with a custom palette.
+
 Both dashboard items use the global color scheme.
 
 ![Web Dashboard - Customizing Color Palettes Global Scheme](images/custom-color-palettes.png)
