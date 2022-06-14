@@ -18,7 +18,7 @@ Both dashboard items use the global color scheme.
 
 ### Sales by SalesPerson Dashboard
 
-In the *Sales By SalesPerson* dashboard, the color palette is changed in the UI. The pie dashboard item (Quantity) uses the local color scheme, other two dashboard items use the global color scheme. 
+In the *Sales By SalesPerson* dashboard, the color palette is changed in the UI. You can customize color palettes either in the [Dashboard Item Menu](https://docs.devexpress.com/Dashboard/117446/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-item-menu) or in the [Color Scheme Page](https://docs.devexpress.com/Dashboard/117444/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-menu). The pie dashboard item (Quantity) uses the local color scheme, other two dashboard items use the global color scheme.
 
 ![Web Dashboard - Customizing Color Palettes Local and Global Scheme](images/custom-color-palettes-local.png)
 
