@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="22.1.2-beta" />
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard" Version="21.2.8" />
   </ItemGroup>
 
 </Project>
