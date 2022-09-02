@@ -34,4 +34,6 @@ In the *Sales By SalesPerson* dashboard, the color palette is changed in the UI.
 - [Coloring Basics](https://docs.devexpress.com/Dashboard/116915)
 - [Coloring in the Web Dashboard](https://docs.devexpress.com/Dashboard/117152)
 
+## More Examples
 
+- [Dashboard for Web Forms - How to color dashboard item elements](https://github.com/DevExpress-Examples/asp-net-core-dashboard-customize-color-palettes)
