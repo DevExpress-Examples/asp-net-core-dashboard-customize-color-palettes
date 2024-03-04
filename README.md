@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # BI Dashboard for ASP.NET Core - How to Customize the Color Palette
 
-This example illustates how to customize the color palette for dashboard items in the Web Dashboard.
+This example illustrates how to customize the color palette for dashboard items in the Web Dashboard.
 
 Restore npm packages to launch the project. Note that the script version on the client must match the version of libraries on the server.
 
