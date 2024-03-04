@@ -25,7 +25,7 @@ In the *Sales By SalesPerson* dashboard, the color palette is changed in the UI.
 
 ![Web Dashboard - Customizing Color Palettes Local and Global Scheme](images/custom-color-palettes-local.png)
 
-## Files to Look At
+## Files to Review
 
 - [Program.cs](./CS/WebDashboardCustomColorPalettes/Program.cs)
 
