@@ -28,19 +28,18 @@ void Default_CustomPalette(object sender, CustomPaletteWebEventArgs e) {
     if (e.DashboardId == "SalesByCategory") {
 
         // Create a new custom palette.
-        List<Color> customColors = new List<Color>();
-        customColors.Add(Color.LightBlue);
-        customColors.Add(Color.Aquamarine);
-        customColors.Add(Color.SkyBlue);
-        customColors.Add(Color.LightCoral);
-        customColors.Add(Color.Tomato);
-        customColors.Add(Color.IndianRed);
-        customColors.Add(Color.Violet);
-        customColors.Add(Color.Plum);
-        customColors.Add(Color.MediumOrchid);
-
+        List<DashboardPaletteItem> paletteItems = new List<DashboardPaletteItem>();
+        paletteItems.Add(new DashboardPaletteItem(Color.LightBlue));
+        paletteItems.Add(new DashboardPaletteItem(Color.Aquamarine));
+        paletteItems.Add(new DashboardPaletteItem(Color.SkyBlue,DevExpress.Drawing.DXHatchStyle.DiagonalCross));
+        paletteItems.Add(new DashboardPaletteItem(Color.LightCoral));
+        paletteItems.Add(new DashboardPaletteItem(Color.Tomato));
+        paletteItems.Add(new DashboardPaletteItem(Color.IndianRed));
+        paletteItems.Add(new DashboardPaletteItem(Color.Violet, DevExpress.Drawing.DXHatchStyle.Sphere, DevExpress.Drawing.DXDashStyle.DashDotDot));
+        paletteItems.Add(new DashboardPaletteItem(Color.Plum));
+        paletteItems.Add(new DashboardPaletteItem(Color.MediumOrchid));
         // Assign a newly created custom palette to the Web Dashboard.
-        e.Palette = new DashboardPalette(customColors);
+        e.Palette = new DashboardPalette(paletteItems);
     }
 }
 
@@ -56,7 +55,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseDevExpressControls();
-EndpointRouteBuilderExtension.MapDashboardRoute(app, "dashboardControl", "DefaultDashboard");
+app.MapDashboardRoute("dashboardControl", "DefaultDashboard");
 
 app.UseRouting();
 

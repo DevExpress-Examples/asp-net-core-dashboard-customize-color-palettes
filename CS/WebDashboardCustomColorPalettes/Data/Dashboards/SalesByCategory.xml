@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Dashboard>
+<Dashboard RequestParameters="false">
   <Title Text="Sales by Category" />
   <DataSources>
     <SqlDataSource Name="SalesPerson" ComponentName="sqlDataSource1">

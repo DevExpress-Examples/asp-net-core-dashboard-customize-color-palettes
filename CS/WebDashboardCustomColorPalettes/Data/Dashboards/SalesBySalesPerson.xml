@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Dashboard>
+<Dashboard RequestParameters="false">
   <Title Text="Sales by SalesPerson" />
   <DataSources>
     <SqlDataSource Name="SalesPerson" ComponentName="sqlDataSource1">
@@ -104,22 +104,6 @@
         </DimensionKey>
       </DimensionKeys>
     </Entry>
-    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16422014">
-      <DimensionKeys>
-        <DimensionKey>
-          <Definition DataMember="Sales Person" />
-          <Value Type="System.String" Value="MargaretPeacock" />
-        </DimensionKey>
-      </DimensionKeys>
-    </Entry>
-    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16557458">
-      <DimensionKeys>
-        <DimensionKey>
-          <Definition DataMember="Sales Person" />
-          <Value Type="System.String" Value="MichaelSuyama" />
-        </DimensionKey>
-      </DimensionKeys>
-    </Entry>
     <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16364452">
       <DimensionKeys>
         <DimensionKey>
@@ -128,7 +112,15 @@
         </DimensionKey>
       </DimensionKeys>
     </Entry>
-    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16568776">
+    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16776187">
+      <DimensionKeys>
+        <DimensionKey>
+          <Definition DataMember="Sales Person" />
+          <Value Type="System.String" Value="StevenBuchanan" />
+        </DimensionKey>
+      </DimensionKeys>
+    </Entry>
+    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16568776" HatchFillStyle="LargeCheckerBoard">
       <DimensionKeys>
         <DimensionKey>
           <Definition DataMember="Sales Person" />
@@ -136,11 +128,19 @@
         </DimensionKey>
       </DimensionKeys>
     </Entry>
-    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16776187">
+    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16557458" HatchFillStyle="DarkUpwardDiagonal">
       <DimensionKeys>
         <DimensionKey>
           <Definition DataMember="Sales Person" />
-          <Value Type="System.String" Value="StevenBuchanan" />
+          <Value Type="System.String" Value="MichaelSuyama" />
+        </DimensionKey>
+      </DimensionKeys>
+    </Entry>
+    <Entry DataSource="sqlDataSource1" DataMember="SalesPerson" Color="-16422014" HatchFillStyle="Shingle">
+      <DimensionKeys>
+        <DimensionKey>
+          <Definition DataMember="Sales Person" />
+          <Value Type="System.String" Value="MargaretPeacock" />
         </DimensionKey>
       </DimensionKeys>
     </Entry>
